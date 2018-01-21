@@ -16,7 +16,7 @@
 -->
 <resources>
 
-    <string name="hello">Hello, OpenGL ES 2.0!</string>
-    <string name="app_name">Hello OpenGL ES 2.0</string>
+    <string name="hello">OpenGL demo</string>
+    <string name="app_name">My OpenGL demo</string>
 
 </resources>

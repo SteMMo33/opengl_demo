@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 8
+    compileSdkVersion 17
 
     defaultConfig {
         applicationId "com.example.android.opengl"
@@ -15,4 +14,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+}
+
+dependencies {
 }

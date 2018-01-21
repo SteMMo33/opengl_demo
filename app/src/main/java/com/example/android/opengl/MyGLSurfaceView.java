@@ -17,7 +17,9 @@ package com.example.android.opengl;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 import android.view.MotionEvent;
+import android.widget.TextView;
 
 /**
  * A view container where OpenGL ES graphics can be drawn on screen.
@@ -82,4 +84,10 @@ public class MyGLSurfaceView extends GLSurfaceView {
         return true;
     }
 
+
+    public void UpdateMsg(String msg) {
+        TextView tv = (TextView) findViewById(R.id.MainTvMsg);
+        if (tv != null) tv.setText(msg);
+        else Log.e("SurfaceView", "tv is null");
+    }
 }
